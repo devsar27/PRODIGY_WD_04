@@ -16,7 +16,3 @@ Responsive Design: Ensures optimal viewing experience across a wide range of dev
 Technologies Used
 HTML: Used for structuring the content and layout of the website.
 CSS: Employed for styling the user interface, creating an aesthetically pleasing design.
-JavaScript: Implemented for interactivity and dynamic functionality, enhancing user experience.
-
-Installation and Usage
-To view my portfolio website, simply visit [URL here] in your web browser. Feel free to explore the different sections to learn more about me and my work.
