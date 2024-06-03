@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-content {
+    margin-top: 1rem;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+section#home {
+    padding: 2rem 0;
+    text-align: center;
+    background: #e9ecef;
+}
+
+section#home .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#home .intro img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    margin-bottom: 1rem;
+    border: 5px solid #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section#home .intro img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+
+section#home .intro h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section#home .intro p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section#about {
+    padding: 2rem 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section#about p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+section#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#about ul li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+}
+
+section#projects {
+    padding: 2rem 0;
+    background: #e9ecef;
+}
+
+section#projects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+section#projects .project-item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+section#projects .project-item:hover {
+    transform: translateY(-10px);
+}
+
+section#projects .project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+section#contact {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+section#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section#contact .form-group {
+    margin-bottom: 1rem;
+}
+
+section#contact .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section#contact .form-group textarea {
+    resize: vertical;
+}
+
+section#contact button {
+    display: block;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section#contact button:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
